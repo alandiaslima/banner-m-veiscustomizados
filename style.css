@@ -1,0 +1,61 @@
+span{
+  color: orange;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 32px;
+}
+h1 span{
+  font-weight: bold;
+}
+p, #footer{
+  font-family: 'Open Sans', sans-serif;
+}
+p{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+  margin: 0;
+}
+body{
+  text-align: center;
+}
+#hero{
+  width: 592px;
+  height: 579px;
+
+  /* 0 no top, auto nas laterais e 72px no bottom*/
+  margin: 0 auto 72px;
+  
+}
+#footer{
+  margin: auto;
+  margin-top: 40px;
+  color: orange;
+  margin-bottom: 33px;
+}
+#hero img{
+  margin-bottom: 72px;
+}
+
+/* "a" que anteriormente tem um "a" */
+#footer a + a{
+  margin-left: 28px;
+}
+#line{
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 8px;
+  border: 1px #ECEFF2 solid;
+  }
+  a{
+    color: orange;
+  }
+  #balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+  }
